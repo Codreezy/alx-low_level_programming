@@ -11,14 +11,17 @@ int main(void)
 
 	for (tens = '0'; tens <= '9'; tens++)/*prints tens digit*/
 	{
-		if (!((ones == tens) || (tens > ones)))/*eliminates repitition*/
+		for (ones = '0'; ones <= '9'; ones++)/*prints ones digit*/
 		{
-			putchar(tens);
-			putchar(ones);
-			if (!(ones == '9' && tens == '8'))/*addes comma spaces*/
+			if (!((ones == tens) || (tens > ones)))/*eliminates repitition*/
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(tens);
+				putchar(ones);
+				if (!(ones == '9' && tens == '8'))/*adddes comma and space*/
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
