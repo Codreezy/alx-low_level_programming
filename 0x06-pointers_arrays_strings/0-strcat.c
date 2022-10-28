@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * strcat - concentrates two strings
+ * _strcat - concentrates two strings
  * @dest: copy to
  * @src: copy from
  * Return: pointer to dest
