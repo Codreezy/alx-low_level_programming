@@ -6,11 +6,7 @@
  */
 int print_last_digit(int n)
 {
-<<<<<<< HEAD
-int a;	
-=======
 int a;
->>>>>>> ddc8344a85b9dc67110c19dd7bea8cd00446beb0
 if (n < 0)
 n = -n;
 a = n % 10;
