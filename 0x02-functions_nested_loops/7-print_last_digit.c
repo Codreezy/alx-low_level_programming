@@ -5,8 +5,12 @@
  * Return: value of the last digit
  */
 int print_last_digit(int n)
+<<<<<<< HEAD
 {
 int a;
+=======
+{int a;	
+>>>>>>> 287ab4ae9adba06cbacfded90d7ded2b70a79506
 if (n < 0)
 n = -n;
 a = n % 10;
